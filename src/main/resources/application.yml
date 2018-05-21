@@ -6,8 +6,8 @@ example:
     region: us-east-1
     # The credentials come from your S3 provider.  For minio testing, it will display these when you startup minio
     credentials:
-      accessKey: TVAUG74I9W1DMTX0F5MT
-      secretKey: NZgWHTSzWDjQqzcaozCp63tl0H55oBF0KbaBMv7w
+      accessKey: XXXXXXXXXXXXXXXX
+      secretKey: XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     endpoint: http://127.0.0.1:9000
     # The bucket name that will be used and/or created to testing
     bucketname: examplebucket
