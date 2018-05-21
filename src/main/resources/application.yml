@@ -1,0 +1,14 @@
+# The following is used for S3 example
+
+example:
+  s3:
+    # Although we are not neccesarly talking to AWS, we do need to specify a region. In minio's case, it should be set to us-east-1
+    region: us-east-1
+    # The credentials come from your S3 provider.  For minio testing, it will display these when you startup minio
+    credentials:
+      accessKey: TVAUG74I9W1DMTX0F5MT
+      secretKey: NZgWHTSzWDjQqzcaozCp63tl0H55oBF0KbaBMv7w
+    endpoint: http://127.0.0.1:9000
+    # The bucket name that will be used and/or created to testing
+    bucketname: examplebucket
+    examplefilename: example_file.txt 
