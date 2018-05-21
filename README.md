@@ -5,9 +5,19 @@ Example of how to read / write to any S3 compatible storage system.
 
 # How to run
 
-This example can be run against any S3 compatible storage system.  
+This example can be run against any S3 compatible storage system.  AWS S3 works fine but if you do not have
+convenient access to an S3 storage system for local devleopment / testing, you can use Minio.
 
+
+# Minio
 [minio](https://github.com/minio/minio) running on MacOS was used to test this code.
+
+You can run the following to startup minio on your local system and start sharing `~/minio_share` directory. 
+```
+mkdir ~/minio_share
+minio server ~/minio_share
+```
+Note the output of the above command as it will be needed to update the `application.yml` file.
 
 
 # Testing app
